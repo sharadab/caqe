@@ -1,7 +1,7 @@
 # CAQE
 Clustering for Anatomical Quantification and Evaluation (CAQE)
 
-Code supporting the paper "Microstructure-informed brain tissue classification using clustering in multiple sclerosis". The atlas of tissue classification and classifier model can be found at: 
+Code supporting the paper "Microstructure-informed brain tissue classification using clustering in multiple sclerosis". The atlas of tissue classification and classifier model can be found at: https://zenodo.org/records/11399015.
 
 The "processing" folder contains code that assumes myelin water imaging data has already been processed. It contains code to process tensor-valued diffusion data from PAR/REC format, register myelin water imaging and diffusion data, and create CSF masks.
 It also contains code to create metric atlases, and warp the atlas of tissue classification (once it is made) to each MS subject.
