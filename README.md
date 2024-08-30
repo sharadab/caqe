@@ -1,7 +1,7 @@
 # CAQE
 Clustering for Anatomical Quantification and Evaluation (CAQE)
 
-Code supporting the paper "Microstructure-informed brain tissue classification using clustering in multiple sclerosis". The atlas of tissue classification and classifier model can be found at: https://zenodo.org/records/11399015.
+Code supporting the paper "Microstructure-informed brain tissue classification using clustering of quantitative magnetic resonance imaging measures". The atlas of tissue classification and classifier model can be found at: https://zenodo.org/records/11399015.
 
 The "processing" folder contains code that assumes myelin water imaging data has already been processed. It contains code to process tensor-valued diffusion data from PAR/REC format, register myelin water imaging and diffusion data, and create CSF masks.
 It also contains code to create metric atlases, and warp the atlas of tissue classification (once it is made) to each MS subject.
@@ -19,7 +19,7 @@ There are several Jupyter notebooks for different purposes that can be used afte
 
 - dataset_pca.ipynb: used to assess the overall healthy dataset to see if metrics are largely complemenetary or if any are redundant.
 
-Uses:
+Requires:
 - https://github.com/avdvorak/CALIPR for converting myelin water imaging data into myelin water fraction maps.
 - https://github.com/markus-nilsson/md-dmri for some of the tensor-valued diffusion image processing.
 - https://github.com/ElsevierSoftwareX/SOFTX-D-21-00175 for converting tensor-valued diffusion images into metric maps.
